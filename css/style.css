@@ -5,20 +5,39 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  @font-face{
-   font-family: 'Karla';
-   src:url('../css/Karla-Regular.ttf')
- }
-* {
-  font-family: 'Karla'
+  font-family: 'Facit';
+  src:url('../css/Facit-Regular.otf')
 }
+@font-face{
+  font-family: 'BrFirma';
+  src:url('../css/BRFirma-Regular.ttf')
+}
+* {
+  font-family: 'Facit';
+}
+#aboutHeader {
+  font-family: 'BrFirma';
+  font-weight: 800;
+}
+
 #cv {
   display: flex;
   flex-direction: row;
-  align-items: center
+  align-content: center;
+  justify-content: flex-start;
 }
 #cv small {
   font-weight: bold;
-  padding-left: 4px;
+}
+#portfolioHeader{
+  font-family: 'BrFirma';
+  font-weight: 800;
+}
+#headingStyle {
+  font-weight: 800;
+
+}#headingStyle a {
+  font-family: 'BrFirma';
 }
 #social a {
   background: transparent;
@@ -8307,8 +8326,10 @@ textarea.form-control {
   .blog-entry .text .heading {
     font-size: 20px;
     margin-bottom: 16px;
+    font-family: 'BrFirma';
     font-weight: 500; }
     .blog-entry .text .heading a {
+      font-family: 'BrFirma';
       color: #fff; }
       .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
         color: #2f89fc; }
@@ -8544,6 +8565,7 @@ textarea.form-control {
 
 .block-3 .text .heading {
   font-size: 30px;
+  font-family: 'BrFirma';
   margin-bottom: 30px; }
   .block-3 .text .heading a {
     color: #fff; }
