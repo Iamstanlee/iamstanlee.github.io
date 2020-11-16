@@ -9711,6 +9711,22 @@ h5,
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.resume {
+  z-index: 1003;
+  text-transform: uppercase;
+  float: right;
+  padding-top: 8px;
+  padding-right: 15px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   #app-main-nav .app-nav-toggle {
     -webkit-transition: none;
